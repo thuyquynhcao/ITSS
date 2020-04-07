@@ -21,7 +21,7 @@ class TaskItem extends Component {
                                                 <td> {task.name } </td>
                                                 <td className="text-center" >
                                                                 <span 
-                                                                            className={ task.status === true ? 'label label-danger' : 'label label-success' } 
+                                                                            className={ task.status === true ? 'label label-success' : 'label label-danger' } 
                                                                             onClick = { this.onUpsdateStatus }
                                                                 > { task.status === true ? 'まだ ' : '満期'} </span>
                                                 </td>
